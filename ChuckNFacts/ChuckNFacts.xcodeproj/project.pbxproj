@@ -11,6 +11,9 @@
 		BDDF5EC0268BC563009A9219 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EBF268BC563009A9219 /* SceneDelegate.swift */; };
 		BDDF5EC7268BC567009A9219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDF5EC6268BC567009A9219 /* Assets.xcassets */; };
 		BDDF5ECA268BC567009A9219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDF5EC8268BC567009A9219 /* LaunchScreen.storyboard */; };
+		BDDF5EDA268BC7BE009A9219 /* RequestsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */; };
+		BDDF5EDD268BC7CA009A9219 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */; };
+		BDDF5EE0268BC7DA009A9219 /* ChuckRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */; };
 		BDDF5EE6268BC8FB009A9219 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EE4268BC8FB009A9219 /* HomeView.swift */; };
 		BDDF5EE7268BC8FB009A9219 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EE5268BC8FB009A9219 /* HomeViewController.swift */; };
 		BDDF5EEA268BC910009A9219 /* ContainerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EE9268BC910009A9219 /* ContainerHelper.swift */; };
@@ -34,6 +37,9 @@
 		BDDF5EC6268BC567009A9219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDF5EC9268BC567009A9219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDF5ECB268BC567009A9219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsModel.swift; sourceTree = "<group>"; };
+		BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChuckRequest.swift; sourceTree = "<group>"; };
 		BDDF5EE4268BC8FB009A9219 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BDDF5EE5268BC8FB009A9219 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BDDF5EE9268BC910009A9219 /* ContainerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerHelper.swift; sourceTree = "<group>"; };
@@ -98,6 +104,10 @@
 			children = (
 				BDDF5EBD268BC563009A9219 /* AppDelegate.swift */,
 				BDDF5EBF268BC563009A9219 /* SceneDelegate.swift */,
+				BDDF5EC1268BC563009A9219 /* ViewController.swift */,
+				BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */,
+				BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */,
+				BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */,
 				BDDF5EE4268BC8FB009A9219 /* HomeView.swift */,
 				BDDF5EE5268BC8FB009A9219 /* HomeViewController.swift */,
 				BDDF5EE9268BC910009A9219 /* ContainerHelper.swift */,
@@ -228,6 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDF5EE0268BC7DA009A9219 /* ChuckRequest.swift in Sources */,
+				BDDF5EDD268BC7CA009A9219 /* RequestHelper.swift in Sources */,
+				BDDF5EC2268BC563009A9219 /* ViewController.swift in Sources */,
+				BDDF5EBE268BC563009A9219 /* AppDelegate.swift in Sources */,
+				BDDF5EC0268BC563009A9219 /* SceneDelegate.swift in Sources */,
+				BDDF5EDA268BC7BE009A9219 /* RequestsModel.swift in Sources */,
 				BDDF5F02268BCBD6009A9219 /* CategoryLabel.swift in Sources */,
 				BDDF5EFD268BCB2C009A9219 /* SearchView.swift in Sources */,
 				BDDF5F01268BCBD6009A9219 /* SearchTextField.swift in Sources */,
