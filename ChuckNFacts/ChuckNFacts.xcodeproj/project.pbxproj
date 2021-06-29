@@ -104,25 +104,72 @@
 			children = (
 				BDDF5EBD268BC563009A9219 /* AppDelegate.swift */,
 				BDDF5EBF268BC563009A9219 /* SceneDelegate.swift */,
-				BDDF5EC1268BC563009A9219 /* ViewController.swift */,
-				BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */,
-				BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */,
-				BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */,
-				BDDF5EE4268BC8FB009A9219 /* HomeView.swift */,
-				BDDF5EE5268BC8FB009A9219 /* HomeViewController.swift */,
-				BDDF5EE9268BC910009A9219 /* ContainerHelper.swift */,
-				BDDF5EEC268BC939009A9219 /* ComponentView.swift */,
-				BDDF5EF6268BCB1F009A9219 /* FactsCell.swift */,
-				BDDF5EF5268BCB1F009A9219 /* FactView.swift */,
-				BDDF5EFB268BCB2C009A9219 /* SearchView.swift */,
-				BDDF5EFA268BCB2C009A9219 /* SearchViewController.swift */,
-				BDDF5F00268BCBD6009A9219 /* CategoryLabel.swift */,
-				BDDF5EFF268BCBD6009A9219 /* SearchTextField.swift */,
+				BDDF5F09268BCCFB009A9219 /* Views */,
+				BDDF5F0C268BCD37009A9219 /* Components */,
+				BDDF5F0D268BCD52009A9219 /* Services */,
+				BDDF5F0E268BCD6F009A9219 /* Model */,
 				BDDF5EC6268BC567009A9219 /* Assets.xcassets */,
 				BDDF5EC8268BC567009A9219 /* LaunchScreen.storyboard */,
 				BDDF5ECB268BC567009A9219 /* Info.plist */,
 			);
 			path = ChuckNFacts;
+			sourceTree = "<group>";
+		};
+		BDDF5F09268BCCFB009A9219 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF5F0A268BCD04009A9219 /* HomeView */,
+				BDDF5F0F268BCD8B009A9219 /* SearchView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDDF5F0A268BCD04009A9219 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF5EE4268BC8FB009A9219 /* HomeView.swift */,
+				BDDF5EE5268BC8FB009A9219 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		BDDF5F0C268BCD37009A9219 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF5EF6268BCB1F009A9219 /* FactsCell.swift */,
+				BDDF5EF5268BCB1F009A9219 /* FactView.swift */,
+				BDDF5F00268BCBD6009A9219 /* CategoryLabel.swift */,
+				BDDF5EFF268BCBD6009A9219 /* SearchTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BDDF5F0D268BCD52009A9219 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */,
+				BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */,
+				BDDF5EE9268BC910009A9219 /* ContainerHelper.swift */,
+				BDDF5EEC268BC939009A9219 /* ComponentView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BDDF5F0E268BCD6F009A9219 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDDF5F0F268BCD8B009A9219 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				BDDF5EFB268BCB2C009A9219 /* SearchView.swift */,
+				BDDF5EFA268BCB2C009A9219 /* SearchViewController.swift */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +287,6 @@
 			files = (
 				BDDF5EE0268BC7DA009A9219 /* ChuckRequest.swift in Sources */,
 				BDDF5EDD268BC7CA009A9219 /* RequestHelper.swift in Sources */,
-				BDDF5EC2268BC563009A9219 /* ViewController.swift in Sources */,
 				BDDF5EBE268BC563009A9219 /* AppDelegate.swift in Sources */,
 				BDDF5EC0268BC563009A9219 /* SceneDelegate.swift in Sources */,
 				BDDF5EDA268BC7BE009A9219 /* RequestsModel.swift in Sources */,

@@ -15,7 +15,7 @@ class SearchView: UIView {
 	lazy var textField = container.resolve(SearchTextField.self)!
 	lazy var loading = container.resolve(UIActivityIndicatorView.self)!
 	lazy var feedbackLabel = container.resolve(UILabel.self)!
-    
+	
 //MARK: - Inits
 	override init(frame: CGRect) {
 		super.init(frame: frame)
