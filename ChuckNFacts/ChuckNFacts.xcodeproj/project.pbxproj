@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,9 @@
 		BDDF5EC2268BC563009A9219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EC1268BC563009A9219 /* ViewController.swift */; };
 		BDDF5EC7268BC567009A9219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDF5EC6268BC567009A9219 /* Assets.xcassets */; };
 		BDDF5ECA268BC567009A9219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDF5EC8268BC567009A9219 /* LaunchScreen.storyboard */; };
+		BDDF5EDA268BC7BE009A9219 /* RequestsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */; };
+		BDDF5EDD268BC7CA009A9219 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */; };
+		BDDF5EE0268BC7DA009A9219 /* ChuckRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */; };
 		E7C3EA3A037FF02D524DBCA0 /* Pods_ChuckNFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374554FCFC3050066B0AE508 /* Pods_ChuckNFacts.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		BDDF5EC6268BC567009A9219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDF5EC9268BC567009A9219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDF5ECB268BC567009A9219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsModel.swift; sourceTree = "<group>"; };
+		BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChuckRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,6 @@
 				79223E72DA3A2B42AF5812F7 /* Pods-ChuckNFacts.debug.xcconfig */,
 				05187F7491B5887CB1570BCB /* Pods-ChuckNFacts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,6 +87,9 @@
 				BDDF5EBD268BC563009A9219 /* AppDelegate.swift */,
 				BDDF5EBF268BC563009A9219 /* SceneDelegate.swift */,
 				BDDF5EC1268BC563009A9219 /* ViewController.swift */,
+				BDDF5EDF268BC7DA009A9219 /* ChuckRequest.swift */,
+				BDDF5EDC268BC7CA009A9219 /* RequestHelper.swift */,
+				BDDF5ED9268BC7BE009A9219 /* RequestsModel.swift */,
 				BDDF5EC6268BC567009A9219 /* Assets.xcassets */,
 				BDDF5EC8268BC567009A9219 /* LaunchScreen.storyboard */,
 				BDDF5ECB268BC567009A9219 /* Info.plist */,
@@ -202,9 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDF5EE0268BC7DA009A9219 /* ChuckRequest.swift in Sources */,
+				BDDF5EDD268BC7CA009A9219 /* RequestHelper.swift in Sources */,
 				BDDF5EC2268BC563009A9219 /* ViewController.swift in Sources */,
 				BDDF5EBE268BC563009A9219 /* AppDelegate.swift in Sources */,
 				BDDF5EC0268BC563009A9219 /* SceneDelegate.swift in Sources */,
+				BDDF5EDA268BC7BE009A9219 /* RequestsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
