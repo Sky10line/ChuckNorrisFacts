@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 //MARK: - Instances
 class HomeViewController: UIViewController {
 	
